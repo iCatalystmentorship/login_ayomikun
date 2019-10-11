@@ -54,7 +54,7 @@
                                                     <constraint firstAttribute="height" constant="180" id="ig2-ms-2CX"/>
                                                 </constraints>
                                             </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ncN-wW-FwS">
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ncN-wW-FwS">
                                                 <rect key="frame" x="76" y="239" width="168.5" height="35"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Qm-EB-BNX">
@@ -111,8 +111,9 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.62649773320000002" green="0.2059283059" blue="0.1722303956" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.9137254901960784" green="0.31764705882352939" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
+                                            <constraint firstItem="i2k-5S-eFt" firstAttribute="top" secondItem="ZMi-RY-3Us" secondAttribute="bottom" constant="62" id="97u-4o-GmM"/>
                                             <constraint firstItem="KPy-h3-WaC" firstAttribute="centerX" secondItem="gI2-8Y-Ef8" secondAttribute="centerX" id="AVm-ix-YE2"/>
                                             <constraint firstItem="i2k-5S-eFt" firstAttribute="centerX" secondItem="gI2-8Y-Ef8" secondAttribute="centerX" id="CAj-BA-Qap"/>
                                             <constraint firstItem="ZMi-RY-3Us" firstAttribute="top" secondItem="yGf-ds-kDG" secondAttribute="bottom" constant="8" id="Kmc-la-vhx"/>
@@ -125,6 +126,7 @@
                                             <constraint firstAttribute="bottom" secondItem="i2k-5S-eFt" secondAttribute="bottom" constant="20" id="eo2-A2-pNh"/>
                                             <constraint firstItem="yA5-fN-FFh" firstAttribute="top" secondItem="KPy-h3-WaC" secondAttribute="bottom" constant="44" id="fr9-6w-xWR"/>
                                             <constraint firstItem="yGf-ds-kDG" firstAttribute="top" secondItem="yA5-fN-FFh" secondAttribute="bottom" constant="60" id="sHw-5P-akV"/>
+                                            <constraint firstItem="ncN-wW-FwS" firstAttribute="top" secondItem="KPy-h3-WaC" secondAttribute="bottom" constant="9" id="uXV-dC-Tpb"/>
                                         </constraints>
                                     </view>
                                 </subviews>
