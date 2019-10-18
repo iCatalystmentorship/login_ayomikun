@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 extension UIButton{
     func customizeButtonWithRoundedCorners(){
-        self.layer.cornerRadius = 20
+        self.layer.cornerRadius = 10
     }
 }
 
@@ -20,9 +20,13 @@ extension UITextField{
         self.layer.borderWidth = 0.3
         self.layer.borderColor = UIColor.white.cgColor
         self.leftViewMode = UITextField.ViewMode.always
-        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
         let image = UIImage(named: iconName)
         imageView.image = image
+        imageView.contentMode = .scaleAspectFill
+        imageView.clipsToBounds = true
         self.leftView = imageView
     }
 }
+
+
